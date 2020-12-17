@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prueba número 1</title>
+    <title>Customer Care</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/marvel-avengers-logo-sticker.png">
+    <link rel="apple-touch-icon" href="./assets/marvel-avengers-logo-sticker.png">
     <script src="app.js"></script>
 </head>
+
 <body>
-    <h1 id="title"> Gestión de Incidencias</h1>
-    <h2 id="subtitle">F Rentals</h2>
+    <header class="header_container">
+        <div class="logo_container">
+            <img src="./assets/marvel-avengers-logo-sticker.png" alt="logo" class="logo">
+        </div>
+        <div class="title_header">
+            <h1 id="title"> Gestión de Incidencias</h1>
+            <h2 id="subtitle">F Rentals</h2>
+        </div>
+    </header>
     <form action="" id="form">
         <input type="email" id="email" placeholder="your email" style="border-radius: 150px;">
         <br>
         <input type="password" id="password" placeholder="password" style="border-radius: 150px;">
         <br>
-        <button type="button" id="button_container" style="border-radius: 150px;" onclick=recogerDatos()> <a href="./menu_principal/incidencia.html">Log in</a></button>
+        <button type="button" id="button_container" style="border-radius: 150px;" onclick=recogerDatos()> <a
+                href="./menu_principal/incidencia.html">Log in</a></button>
         <button type="button" id="resetButton_container" onclick=borrarForm()>Reset</button>
     </form>
 
 </body>
+
 </html>

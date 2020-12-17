@@ -1,12 +1,3 @@
-/*
-
-
-let registrarEmail = prompt("introduce tu email");
-
-let email = registrarEmail;
-
-alert(email);
-*/
 
 function recogerDatos (){
     let email = document.getElementById("email").value;

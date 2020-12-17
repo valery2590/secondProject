@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+
+}
+#title{
+    color: grey;
+    font-weight: bold;
+}
+.profile_image{
+    border-radius: 150px;
+    width: 80px;
+    height: 80px;
+}
+.user_menu{
+    background-color:yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 20px;
+}

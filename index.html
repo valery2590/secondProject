@@ -10,13 +10,14 @@
 <body>
     <h1 id="title"> Gestión de Incidencias</h1>
     <h2 id="subtitle">F Rentals</h2>
-    <form action="">
+    <form action="" id="form">
         <input type="email" id="email" placeholder="your email" style="border-radius: 150px;">
         <br>
         <input type="password" id="password" placeholder="password" style="border-radius: 150px;">
         <br>
-        <button type="button" id="button_container" style="border-radius: 150px;">Log in</button>
+        <button type="button" id="button_container" style="border-radius: 150px;" onclick=recogerDatos()>Log in</button>
+        <button type="button" id="resetButton_container" onclick=borrarForm()>Reset</button>
     </form>
-    
+
 </body>
 </html>

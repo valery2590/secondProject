@@ -6,3 +6,13 @@ body{
     color: grey;
     font-weight: bold;
 }
+form{
+    width: 500px;
+    margin: auto;
+}
+form input{
+    margin: 10px;
+}
+button{
+    margin: 20px;
+}
